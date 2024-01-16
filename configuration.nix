@@ -59,7 +59,7 @@
   services.xserver.displayManager.gdm.enable = true;
   services.gnome.core-utilities.enable = false;
 
-  
+
 
   # Configure keymap in X11
   services.xserver.xkb.layout = "us";
@@ -111,6 +111,10 @@
     steam
     gnome.nautilus
     steam-run
+
+    # LSPs
+    lua-language-server
+    rust-analyzer
   ];
 
   # Needed to properly configure Tilix
@@ -158,5 +162,5 @@
   # For more information, see `man configuration.nix` or https://nixos.org/manual/nixos/stable/options#opt-system.stateVersion .
   system.stateVersion = "23.11"; # Did you read the comment?
 
+  programs.ssh.startAgent = true;
 }
-
