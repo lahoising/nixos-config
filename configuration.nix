@@ -112,9 +112,15 @@
     gnome.nautilus
     steam-run
 
-    # LSPs
+    # nvim tools [LSPs, linters, formatters]
     lua-language-server
     rust-analyzer
+    luajitPackages.luacheck
+    stylua
+    clang-tools
+    cpplint
+    checkstyle
+    zls
   ];
 
   # Needed to properly configure Tilix
