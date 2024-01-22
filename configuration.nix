@@ -111,6 +111,8 @@
     steam
     gnome.nautilus
     steam-run
+    discord
+    tmux
 
     # nvim tools [LSPs, linters, formatters]
     lua-language-server
